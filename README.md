@@ -89,3 +89,7 @@ apt update&&apt install winehq-stable winetricks
 如使用wine玩游戏时无法调用独显，请通过winetricks安装dxvk或直接使用steam的proton
 
 apt update&&apt install steam
+
+7.镜像安装了非官方源的三方软件，不需要可直接卸载
+
+apt purge com.xunlei.download bitcomet xnview && apt autoremove
