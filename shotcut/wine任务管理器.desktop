@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=wine任务管理器
+Comment=
+Exec=wine taskmgr.exe
+Icon=applications-accessories
+Path=
+Terminal=false
+StartupNotify=false

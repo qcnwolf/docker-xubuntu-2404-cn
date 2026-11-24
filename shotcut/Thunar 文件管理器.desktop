@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Thunar 文件管理器 ROOT
+Comment=用文件管理器浏览文件系统
+Exec=sudo -E thunar
+Icon=org.xfce.thunar
+Path=
+Terminal=false
+StartupNotify=false

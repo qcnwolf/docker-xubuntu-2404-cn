@@ -1,0 +1,10 @@
+# location of this file: /usr/share/applications
+
+[Desktop Entry]
+Name=BitComet
+Exec=/usr/bin/BitComet
+Terminal=false
+Type=Application
+Icon=/usr/share/icons/hicolor/512x512/apps/bitcomet.png
+Categories=Network;
+Comment=BitComet

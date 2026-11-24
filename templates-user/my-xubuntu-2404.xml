@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>xubuntu-2404</Name>
+  <Repository>ghcr.io/qcnwolf/xubuntu:2404-unraid-cn</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/rdesktop</Registry>
+  <Network>eth0</Network>
+  <ExtraNetworks/>
+  <MyIP>192.168.11.91</MyIP>
+  <MyMAC/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support></Support>
+  <Project></Project>
+  <ReadMe/>
+  <Overview/>
+  <Category>Tools:Utilities Network:Management</Category>
+  <WebUI/>
+  <TemplateURL></TemplateURL>
+  <Icon>http://192.168.11.100:50560/icons/upload/rdesktop-logo.png</Icon>
+  <ExtraParams>--hostname xubuntu2604 --shm-size=8g --cap-add SYS_ADMIN --cap-add MKNOD --cap-add AUDIT_WRITE --cap-add SYS_NICE --security-opt='seccomp=unconfined' --ipc='host'</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <Memory/>
+  <DateInstalled>1795409173</DateInstalled>
+  <DonateText>Donations</DonateText>
+  <DonateLink>https://www.linuxserver.io/donate</DonateLink>
+  <Requires/>
+  <Config Name="Appdata" Target="/config" Default="/mnt/cache/appdata/rdesktop" Mode="rw" Description="abc users home directory" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/appdata/xubuntu-2404</Config>
+  <Config Name="TZ" Target="TZ" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Asia/Shanghai</Config>
+  <Config Name="LANG" Target="LANG" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">zh_CN.UTF-8</Config>
+  <Config Name="LANGUAGE" Target="LANGUAGE" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">zh_CN:zh</Config>
+  <Config Name="LC_ALL" Target="LC_ALL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">zh_CN.UTF-8</Config>
+  <Config Name="font" Target="/usr/share/fonts/win/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/appdata/fonts/</Config>
+  <Config Name="downloads" Target="/config/Downloads/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/downloads/</Config>
+  <Config Name="unraid" Target="/mnt/unraid/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/</Config>
+  <Config Name="fuse" Target="/dev/fuse" Default="" Mode="" Description="" Type="Device" Display="always" Required="false" Mask="false">/dev/fuse</Config>
+  <Config Name="card" Target="/dev/dri/card1" Default="/dev/dri" Mode="" Description="Add this for GL support (Linux hosts only)" Type="Device" Display="always" Required="false" Mask="false">/dev/dri/card1</Config>
+  <Config Name="render" Target="/dev/dri/renderD129" Default="" Mode="" Description="" Type="Device" Display="always" Required="false" Mask="false">/dev/dri/renderD129</Config>
+  <Config Name="USER_UID" Target="UNPRIVILEGED_USER_UID" Default="99" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
+  <Config Name="USER_GID" Target="UNPRIVILEGED_USER_GID" Default="100" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
+  <Config Name="USER_NAME" Target="UNPRIVILEGED_USER_NAME" Default="default" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">default</Config>
+  <Config Name="USER_PASSWORD" Target="UNPRIVILEGED_USER_PASSWORD" Default="password" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">password</Config>
+  <Config Name="rdp" Target="3389" Default="3389" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3389</Config>
+  <Config Name="ssh" Target="3322" Default="3322" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3322</Config>
+  <Config Name="UMASK" Target="UMASK" Default="022" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">000</Config>
+  <TailscaleStateDir/>
+</Container>

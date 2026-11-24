@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=迅雷
+Comment=迅雷下载
+Exec=/opt/apps/com.xunlei.download/files/start.sh %U
+Icon=/opt/apps/com.xunlei.download/entries/icons/hicolor/256x256/apps/com.xunlei.download.png
+Terminal=false
+Categories=Network;Qt;
+X-GNOME-UsesNotifications=true
+X-GNOME-SingleWindow=true
+Type=Application
+MimeType=application/x-bittorrent;x-scheme-handler/magnet;application/x-bittorrent;x-scheme-handler/mo;x-scheme-handler/motrix;x-scheme-handler/magnet;x-scheme-handler/thunder;application/x-bittorrent;x-scheme-handler/mo;x-scheme-handler/motrix;x-scheme-handler/magnet;x-scheme-handler/thunder;application/x-bittorrent;x-scheme-handler/mo;x-scheme-handler/motrix;x-scheme-handler/magnet;x-scheme-handler/thunder;application/x-bittorrent;x-scheme-handler/mo;x-scheme-handler/motrix;x-scheme-handler/magnet;x-scheme-handler/thunder;application/x-bittorrent;x-scheme-handler/mo;x-scheme-handler/motrix;x-scheme-handler/magnet;x-scheme-handler/thunder;
+StartupWMClass=thunder
+Path=
+StartupNotify=false
+
+[Desktop Action quit]
+Exec=/opt/apps/com.xunlei.download/files/thunder -quit
+Name=结束迅雷
+Icon=application-exit
